@@ -14,6 +14,7 @@ MY_CHANGES
 * flunix/engine/config.go-Определяет номер порта, на котором запускается приложение. По умолчанию 3000
 * flunix/realese.sh-Определяет сборку для различных ОС (Linux,MacOS,NetBSD)
 * flunix/engine/dirhandler.go-Определяет файл ".algernon" с логотипом  -=Algernon=- 
+* flunix/main.go-Определяет название приложения
  
 
 
