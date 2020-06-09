@@ -3,7 +3,7 @@ MY_CHANGES
 
 
 * Docker-support was deleted
-* Build for OS Wondows was deleted
+* Build for OS Windows was deleted
 * Web-interface fluwc was added
 * flunix/themes/styling.go- Define background-color in browser when server is running
 * flunix/".algernon"- Define logo -=Algernon=- in browser when server is running 
