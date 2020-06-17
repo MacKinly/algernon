@@ -32,7 +32,7 @@ Clone flunix outside of `GOPATH`:
 
 This may also work:
 
-    go get -u github.com//gvsafronov/flunix
+    go get -u github.com/gvsafronov/flunix
 
 
 Technologies
