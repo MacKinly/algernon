@@ -26,7 +26,7 @@ Requires Go 1.11 or later (or GCC 9.2, using `gccgo`).
 
 Clone flunix outside of `GOPATH`:
 
-    git clone https://github.com//gvsafronov/flunix
+    git clone https://github.com/gvsafronov/flunix
     cd flunix
     go build -mod=vendor
 
