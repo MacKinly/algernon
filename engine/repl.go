@@ -606,7 +606,7 @@ func outputHelpAbout(o *textoutput.TextOutput, helpText, topic string) {
 		o.Println(o.DarkGray("Output help about configuration-related functions."))
 		return
 	case "quit", "exit", "shutdown", "halt":
-		o.Println(o.DarkGray("Quit Algernon."))
+		o.Println(o.DarkGray("Quit flunix."))
 		return
 	}
 	comment := ""
@@ -711,9 +711,9 @@ func (ac *Config) REPL(ready, done chan bool) error {
 
 	// Command history file
 	if windows {
-		historyFilename = filepath.Join(historydir, "algernon", "repl.txt")
+		historyFilename = filepath.Join(historydir, "flunix", "repl.txt")
 	} else {
-		historyFilename = filepath.Join(historydir, ".algernon_history")
+		historyFilename = filepath.Join(historydir, ".flunix_history")
 	}
 
 	// Export a selection of functions to the Lua state
